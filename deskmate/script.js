@@ -28,6 +28,11 @@ nav.addEventListener("click", function (e) {
       .querySelector(clicked.getAttribute("href"))
       .scrollIntoView({ behavior: "smooth" });
   }
+  if (clicked === document.querySelector(".logo__img")) {
+    document
+      .querySelector(".header__container")
+      .scrollIntoView({ behavior: "smooth" });
+  }
 });
 
 // -- sticky nav
