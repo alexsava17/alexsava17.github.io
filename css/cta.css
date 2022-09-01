@@ -1,0 +1,48 @@
+.section__cta {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.6rem;
+  padding: 3.2rem 12.8rem;
+}
+
+.heading__cta {
+  color: var(--color-text-primary-light);
+  margin: 0;
+}
+
+.subheading__cta {
+  color: var(--color-primary-lightest);
+}
+
+.form__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+#cta__input {
+  padding: 1.2rem 2.4rem;
+  text-align: start;
+  font-size: 1.8rem;
+  background-color: var(--color-primary-lightest);
+  color: var(--color-text-primary-dark);
+  overflow: scroll;
+  border: none;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+}
+
+.btn__cta {
+  border: none;
+  background-color: inherit;
+  color: var(--color-primary-lightest);
+  font-size: 2.4rem;
+}
+
+.btn__cta:hover {
+  cursor: pointer;
+}

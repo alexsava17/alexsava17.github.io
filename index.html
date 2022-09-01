@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/nav.css" rel="stylesheet" />
+    <link href="css/hero.css" rel="stylesheet" />
+    <link href="css/features.css" rel="stylesheet" />
+    <link href="css/manufacturing.css" rel="stylesheet" />
+    <link href="css/gallery.css" rel="stylesheet" />
+    <link href="css/testimonials.css" rel="stylesheet" />
+    <link href="css/cta.css" rel='stylesheet' />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/partners.css" rel="stylesheet" />
+
+    <script
+      type="module"
+      ;
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ;
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+    <title>Deskmate</title>
+  </head>
+  <body>
+    <header class="header__container">
+    <nav class="nav">
+      <img class="logo__img" src="img/logo.png" alt="logo" />
+      <div class="nav__links">
+        <a class="nav__link" href="#section--features">Features</a>
+        <a class="nav__link" href="#section--manufacturing">Manufacturing</a>
+        <a class="nav__link" href="#section--testimonials">Testimonials</a>
+        <a class="nav__link nav__btn" href="#section--cta">Get started!</a>
+      </div>
+    </nav>
+    <div class="header">
+      <div class="header__text__box">
+        <h1 class="header__heading">
+          Increase <span class="highlight">productivity</span> with<br />
+          <span class="highlight">ease</span>
+        </h1>
+        <p class="header__text">A better environment for a better workflow</p>
+        <div class="customers__box">
+          <img class="customer__img customer--1" src="img/person.png" />
+          <img class="customer__img customer--2" src="img/person.png" />
+          <img class="customer__img customer--3" src="img/person.png" />
+          <p class="customers__text">100.000 customers and counting!</p>
+        </div>
+        <a class="header__link" href="#section--features">Learn more &darr;</a>
+      </div>
+      <img class="header__img" src="img/desk-hero.jpeg" alt="header image" />
+      <div class="arrows__box">
+        <span class="arrow arrow__active"><ion-icon name="chevron-down-outline"></ion-icon></span>
+        <span class="arrow"><ion-icon name="chevron-down-outline"></ion-icon></span>
+        <span class="arrow"><ion-icon name="chevron-down-outline"></ion-icon></span>
+      </div>
+    </div>
+    </header>
+    <main class="main">
+      <section id="section--features" class="section section__features">
+        <span class="tag features__tag">Features</span>
+        <h2 class="section__heading features__heading">
+          Everything you would expect from a desk and more
+        </h2>
+        <div class="features__container">
+          <img
+            class="feature__img lazy__img"
+            src="img/materials-min.jpeg"
+            data-src="img/materials.jpeg"
+            alt="Photo"
+          />
+          <div class="feature__text__box">
+            <ion-icon class="icon feature__icon" name="diamond-outline"></ion-icon>
+            <span class="subheading feature__heading">Quality materials</span>
+            <p class="feature__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Perferendis deleniti vitae exercitationem explicabo
+              necessitatibus, culpa voluptates eligendi amet illum rem mollitia
+              architecto. Est voluptas placeat commodi repudiandae iure tenetur
+              repellendus.
+            </p>
+          </div>
+          <div class="feature__text__box">
+            <ion-icon
+              class="icon feature__icon"
+              name="code-slash-outline"
+            ></ion-icon>
+            <span class="subheading feature__heading">Suited for programmers</span>
+            <p class="feature__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+              quam iusto. Saepe, veniam consequuntur! Quam sed, sequi voluptates
+              tempora cumque voluptas minus quis voluptatem alias, porro aut
+              quidem, mollitia nam.
+            </p>
+          </div>
+          <img
+            class="feature__img lazy__img"
+            src="img/jscode-min.jpeg"
+            data-src="img/jscode.jpeg"
+            alt="Photo"
+          /><img
+            class="feature__img lazy__img"
+            src="img/grow-lazy.jpg"
+            data-src="img/grow.jpg"
+            alt="Photo"
+          />
+          <div class="feature__text__box">
+            <ion-icon class="icon feature__icon" name="cog-outline"></ion-icon>
+            <span class="subheading feature__heading">Easily customizable</span>
+            <p class="feature__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis accusamus dignissimos provident voluptate corrupti
+              recusandae. Asperiores, dolorum molestiae. Ipsam vero maxime
+              architecto beatae odio corporis cum voluptate veniam quibusdam
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section section__partners">
+        <span class="heading__partners">partners</span>
+        <div class="partner__logos">
+          <img class="partner__logo" src="img/partner1.svg" alt="partner-logo" />
+          <img class="partner__logo" src="img/partner2.svg" alt="partner-logo" />
+          <img class="partner__logo" src="img/partner3.svg" alt="partner-logo" />
+          <img class="partner__logo" src="img/partner4.svg" alt="partner-logo" />
+          <img class="partner__logo" src="img/partner5.svg" alt="partner-logo" />
+        </div>
+      </section>
+      <section class="section section__manufacturing" id="section--manufacturing">
+        <span class="tag manufacturing__tag">Manufacturing</span>
+        <h2 class="section__heading manufacturing__heading">
+          Just three simple steps and your desk is ready for action
+        </h2>
+        <div class="manufacturing__box">
+          <button class="manufacturing__btn btn__active" id="manufacturing__btn--1" data-nr="1">
+            <span>01</span> Customize
+          </button>
+          <button class="manufacturing__btn" id="manufacturing__btn--2" data-nr="2">
+            <span>02</span> Order
+          </button>
+          <button class="manufacturing__btn" id="manufacturing__btn--3" data-nr="3">
+            <span>03</span> Delivery
+          </button>
+          <div class="manufacturing__content" id="manufacturing__box--1">
+            <ion-icon
+              class="icon manufacturing__box__icon"
+              name="cog-outline"
+            ></ion-icon>
+            <span class="manufacturing__box__heading"
+              >Customize a desk to your taste</span
+            >
+            <p class="manufacturing__box__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              aliquid neque, quisquam quia sit maxime repellat reiciendis
+              quaerat repudiandae quis dolorum atque obcaecati non aspernatur
+              voluptatibus laudantium qui? Quibusdam, debitis.
+            </p>
+          </div>
+          <div class="manufacturing__content hidden" id="manufacturing__box--2">
+            <ion-icon
+              class="icon manufacturing__box__icon"
+              name="cart-outline"
+            ></ion-icon>
+            <span class="manufacturing__box__heading"
+              >Order your unique customized product</span
+            >
+            <p class="manufacturing__box__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              aliquid neque, quisquam quia sit maxime repellat reiciendis
+              quaerat repudiandae quis dolorum atque obcaecati non aspernatur
+              voluptatibus laudantium qui? Quibusdam, debitis.
+            </p>
+          </div>
+          <div class="manufacturing__content hidden" id="manufacturing__box--3">
+            <ion-icon
+              class="icon manufacturing__box__icon"
+              name="earth-outline"
+            ></ion-icon>
+            <span class="manufacturing__box__heading"
+              >We deliver in a blink of an eye, worldwide</span
+            >
+            <p class="manufacturing__box__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              neque, quisquam quia sit maxime repellat reiciendis quaerat
+              repudiandae quis dolorum atque obcaecati non aspernatur
+              voluptatibus laudantium qui? Quibusdam, debitis.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section section__gallery" id="section--gallery">
+        <div class="gallery__img__box">
+        <img
+        class="gallery__img"
+        src="img/desk1.jpeg"
+        data-src="img/desk1.jpeg"
+        alt="Photo"
+        />
+        </div>
+        <div class="gallery__img__box">
+        <img
+        class="gallery__img"
+        src="img/desk2.jpeg"
+        data-src="img/desk2.jpeg"
+        alt="Photo"
+        />
+        </div>
+        <div class="gallery__img__box">
+        <img
+        class="gallery__img"
+        src="img/desk3.jpeg"
+        data-src="img/desk3.jpeg"
+        alt="Photo"
+        />
+        </div>
+        <div class="gallery__img__box">
+        <img
+            class="gallery__img"
+            src="img/desk4.jpeg"
+            data-src="img/desk4.jpeg"
+            alt="Photo"
+          />
+          </div>
+      </section>
+      <section class="section section__testimonials" id="section--testimonials">
+        <span class="tag testimonials__tag">Testimonials</span>
+        <h2 class="section__heading testimonials__heading">
+          See what our clients have to say about us
+        </h1>
+        <div class="testimonial__box">
+          <button class="testimonials__btn btn--prev">
+            <ion-icon
+              class="testimonials__btn__icon"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </button>
+          <button class="testimonials__btn btn--next">
+            <ion-icon
+              class="testimonials__btn__icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </button>
+          <div class="testimonial__box__overflow">
+            <div class="testimonial" id="testimonial--0">
+              <blockquote class="testimonial__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+                nemo tenetur consectetur provident enim eos dolore eius,
+                temporibus sit ipsum optio, quisquam natus quae ex consequatur
+                tempora mollitia ut quis. Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Maiores sint aliquam soluta corporis eaque,
+                repellendus fugit quibusdam illo iure. Accusamus nemo quod rerum
+                unde maxime molestiae laboriosam consequatur dicta! Illo
+              </blockquote>
+              <div class="testimonial__author__box">
+                <img
+                  class="testimonial__author__img"
+                  src="img/user-1.jpg"
+                  alt="testimonial author"
+                />
+                <span class="testimonial__author__text">James Williams</span>
+                <span class="testimonial__author__rating">
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                </span>
+              </div>
+            </div>
+            <div class="testimonial" id="testimonial--1">
+              <blockquote class="testimonial__text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+               nemo tenetur consectetur provident enim eos dolore eius,
+               temporibus sit ipsum optio, quisquam natus quae ex consequatur
+               tempora mollitia ut quis. Lorem ipsum dolor, sit amet consectetur
+               adipisicing elit. Maiores sint aliquam soluta corporis eaque,
+               repellendus fugit quibusdam illo iure. Accusamus nemo quod rerum
+               unde maxime molestiae laboriosam consequatur dicta! Illo
+             </blockquote>
+             <div class="testimonial__author__box">
+               <img
+                 class="testimonial__author__img"
+                 src="img/user-2.jpg"
+                 alt="testimonial author"
+               />
+               <span class="testimonial__author__text">James Williams</span>
+               <span class="testimonial__author__rating">
+                <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star-outline"></ion-icon>
+              </span>
+             </div>
+           </div>
+           <div class="testimonial" id="testimonial--2">
+             <blockquote class="testimonial__text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+               nemo tenetur consectetur provident enim eos dolore eius,
+               temporibus sit ipsum optio, quisquam natus quae ex consequatur
+               tempora mollitia ut quis. Lorem ipsum dolor, sit amet consectetur
+               adipisicing elit. Maiores sint aliquam soluta corporis eaque,
+               repellendus fugit quibusdam illo iure. Accusamus nemo quod rerum
+               unde maxime molestiae laboriosam consequatur dicta! Illo
+              </blockquote>
+              <div class="testimonial__author__box">
+                <img
+                 class="testimonial__author__img"
+                 src="img/user-3.jpg"
+                  alt="testimonial author"
+                />
+                <span class="testimonial__author__text">James Williams</span>
+                <span class="testimonial__author__rating">
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star"></ion-icon>
+                  <ion-icon class ='star' name="star-half"></ion-icon>
+                </span>
+             </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section__cta" id="section--cta">
+        <h2 class="section__heading heading__cta">Your new desk is waiting</h2>
+        <span class="subheading subheading__cta">Let us email you the whole catalogue</span>
+        <form class="form__cta">
+          <input id="cta__input" type="email" placeholder="hello@example.com" required />
+          <button class="btn__cta">&rarr;</button>
+        </form>
+      </section>
+      
+    </main>
+    <footer class="section footer">
+      <div class="footer__box">
+        <img class="footer__logo" src="img/logo-footer.png" alt="footer-logo" />
+        <div class="social__media__box">
+          <a class= "social__media__link" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a class= "social__media__link" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a class= "social__media__link" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        </div>
+      </div>
+      <div class="footer__box">
+        <span class="footer__heading">About us</span>
+        <address>
+          <p class="footer__text">Sunflower Street 17</p>
+          <p class="footer__text">123456</p>
+          <p class="footer__text">Toronto, Canada</p>
+        </address>
+      </div>
+      <div class="footer__box">
+        <span class="footer__heading">Contact</span>
+        <a class="footer__link" href="tel:123-456-7890">Tel: 123-456-7890</a>
+        <a class="footer__link" href="tel:098-765-4321">Fax: 0987-654-321</a>
+        <a class="footer__link" href="mailto:hello@example.com">Mail: hello@example.com</a>
+      </div>
+      <div class="footer__box">
+        <span class="footer__heading">Schedule</span>
+        <p class="footer__text">Mon-Fri: 09:00-18:00</p>
+        <p class="footer__text">Sat: 09:00-14:00</p>
+        <p class="footer__text">Sun: Closed</p>
+      </div>
+      <p class="footer__copyright">Copyright &copy; by <span class="site__author">Alexandru Sava</span></p>
+    </footer>
+  </body>
+</html>
+
+<!-- 
+    Separate each section by a border
+    The section after the header needs to start immediately after the first scroll
+ -->

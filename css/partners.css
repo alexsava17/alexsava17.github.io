@@ -1,0 +1,24 @@
+.section__partners {
+  background-color: var(--color-primary-lightest);
+  text-align: center;
+  padding: 2rem 12.8rem;
+}
+
+.heading__partners {
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 2rem;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.partner__logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12.8rem;
+}
+
+.partner__logo {
+  width: 6.4rem;
+}

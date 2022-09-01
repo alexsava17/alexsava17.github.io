@@ -1,0 +1,46 @@
+.section__features {
+}
+
+.features__tag {
+}
+
+.features__heading {
+}
+
+.features__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+  max-width: 110rem;
+  margin: 0 auto;
+  column-gap: 8rem;
+  row-gap: 8rem;
+}
+
+.feature__img {
+  width: 100%;
+  border-radius: 10px;
+  transition: filter 1s;
+}
+
+.feature__text__box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.feature__icon {
+  background-color: var(--color-primary);
+  color: var(--color-text-primary-light);
+}
+
+.feature__heading {
+  color: var(--color-primary);
+}
+
+.feature__text {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: var(--color-primary-light);
+}
